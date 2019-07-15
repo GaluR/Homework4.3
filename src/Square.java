@@ -4,4 +4,8 @@ public class Square {
     Square (double s){
         sideA = s;
     }
+
+    double squareArea(){
+        return sideA * sideA;
+    }
 }
